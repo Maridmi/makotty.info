@@ -289,6 +289,16 @@
     color: #fff;
   }
 
+  .panel-footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .panel-footer a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
   #contact p, #contact a {
     font-size: 19px;
     color: #303030;

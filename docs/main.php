@@ -176,7 +176,7 @@
           <p>От <strong>7</strong> тыс. р</p>
         </div>
         <div class="panel-footer">
-          <button class="btn btn-lg">уточнить стоимость</button>
+          <button class="btn btn-lg">Уточнить Стоимость</button>
         </div>
       </div>      
     </div>     
@@ -189,7 +189,7 @@
           <p>От <strong>10</strong> тыс. р</p>
         </div>
         <div class="panel-footer">
-          <button class="btn btn-lg">уточнить стоимость</button>
+          <button class="btn btn-lg">Уточнить Стоимость</button>
         </div>
       </div>      
     </div>       
@@ -202,7 +202,7 @@
           <p>Стоимость рассчитывается индивидуально</p>
         </div>
         <div class="panel-footer">
-          <button class="btn btn-lg">уточнить стоимость</button>
+          <button class="btn btn-lg">Уточнить Стоимость</button>
         </div>
       </div>      
     </div>    
