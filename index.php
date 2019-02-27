@@ -12,8 +12,12 @@
             require_once 'docs/nikita.php';
             break;
 
+        case '/altpravo':
+            require_once 'docs/altpravo.php';
+            break;
+
         case '/makotty':
-            require_once 'docs/makottysite.php';
+            require_once 'docs/makotty.php';
             break;
 
         case '/form';

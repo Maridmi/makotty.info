@@ -1,0 +1,33 @@
+.dark {
+    background-color: #0F0F0F;
+	height: 90vh;
+	display: flex;
+}
+
+.white {
+	background-color: white;
+    color: #0F0F0F;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+}
+
+.dark a {
+	color: white;
+	text-decoration: none;
+}
+
+.dark a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.white a {
+	color: #0F0F0F;
+	text-decoration: none;
+}
+
+.white a:hover {
+	color: #0F0F0F;
+	text-decoration: none;
+}

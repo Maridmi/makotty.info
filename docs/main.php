@@ -43,21 +43,19 @@
   </div>
 </div>
 
-<div id="about" class="container-fluid">
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
-    </div>
-    <div class="col-sm-8">
-      <h2>Обо Мне</h2><br>
-      <h4>Я дизайнер из Санкт-Петербурга. Я работала в маркетинговом агенстве, но с недавнего времени занимаюсь фрилансом в сфере графического дизайна.</h4><br>
-      <p>Занимаюсь разработкой сайтов, логотипов, визиток.</p>
-      <br><a href="#contact"><button class="btn btn-lg">Связаться</button></a>
-    </div>
+<div id="about" class="container-fluid row">
+  <div class="col-sm-4">
+    <span class="glyphicon glyphicon-globe logo slideanim"></span>
+  </div>
+  <div class="col-sm-8">
+    <h2>Обо Мне</h2><br>
+    <h4>Я дизайнер из Санкт-Петербурга. Я работала в маркетинговом агенстве, но с недавнего времени занимаюсь фрилансом в сфере графического дизайна.</h4><br>
+    <p>Занимаюсь разработкой сайтов, логотипов, визиток.</p>
+    <br><a href="#contact"><button class="btn btn-lg">Связаться</button></a>
   </div>
 </div>
 
-<div id="services" class="container-fluid text-center bg-grey">
+<div id="services" class="container-fluid text-center bg-gray">
   <h2 style="padding-bottom: 40px">Услуги</h2>
   <br>
   <div class="row slideanim">
@@ -130,10 +128,12 @@
         <h4 class="white-text col-sm-8">Благодарим за дизайн логотипа для розничного магазина цветов и подарков. Работа выполнена оперативно и с учетом всех наших пожеланий. Выражаю благодарность от всей команды "SunFlowers"!<br/><br/><span>ИП Жанько О.Б.,<br/>"SunFlowers"</span></h4>
       </div>
       <div class="item">
-        <h4 class="white-text">"збс!!"<br><span>Кто-то</span></h4>
+        <div class="col-sm-2"></div>
+        <h4 class="white-text col-sm-8">Спасибо за качественно и быстро выполненную работу! На всем ее портяжении мы получали консультацию по всем интересующим вопросам и следили за ходом ее выполнения.<br/><br/><span>Дубровский В.Г.,<br/>ООО "Вентиляционные системы ПЭО"</span></h4>
       </div>
       <div class="item">
-        <h4 class="white-text">"збс?"<br><span>Кто-то</span></h4>
+        <div class="col-sm-2"></div>
+        <h4 class="white-text col-sm-8">Выражаю благодарность от лица всех членов бригады за проделанную работу. Был разработан имиджевый стиль компании. Отдельное спасибо за дизайн визитной карточки и за обратную связь в удобное для нас время.<br/><br/><span>Сердеева Н.А.,<br/>ООО "СтройНевка"</span></h4>
       </div>
     </div>
 
@@ -145,19 +145,6 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
-</div>
-
-<div class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon- logo slideanim"></span>
-    </div>
-    <div class="col-sm-8">
-      <h2></h2><br>
-      <h4><strong></strong></h4><br>
-      <p><strong></strong></p>
-    </div>
   </div>
 </div>
 
@@ -176,7 +163,7 @@
           <p>От <strong>7</strong> тыс. р</p>
         </div>
         <div class="panel-footer">
-          <button class="btn btn-lg">Уточнить Стоимость</button>
+          <a href="#contact"><button class="btn btn-lg">Уточнить Стоимость</button></a>
         </div>
       </div>      
     </div>     
@@ -189,7 +176,7 @@
           <p>От <strong>10</strong> тыс. р</p>
         </div>
         <div class="panel-footer">
-          <button class="btn btn-lg">Уточнить Стоимость</button>
+          <a href="#contact"><button class="btn btn-lg">Уточнить Стоимость</button></a>
         </div>
       </div>      
     </div>       
@@ -202,14 +189,14 @@
           <p>Стоимость рассчитывается индивидуально</p>
         </div>
         <div class="panel-footer">
-          <button class="btn btn-lg">Уточнить Стоимость</button>
+          <a href="#contact"><button class="btn btn-lg">Уточнить Стоимость</button></a>
         </div>
       </div>      
     </div>    
   </div>
 </div>
 
-<div id="contact" class="container-fluid bg-grey">
+<div id="contact" class="container-fluid">
   <h2 class="text-center">Контакты</h2>
   <h4 class="text-center" style="padding: 20px 0 40px 0">Оставьте контактные данные и я свяжусь с Вами в течение 24 часов.</h4>
   <div class="row">
@@ -234,7 +221,7 @@
       <textarea class="form-control" id="comments" name="comments" placeholder="Комментарий" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Отправить</button>
+          <button class="btn btn-lg pull-right" type="submit">Отправить</button>
         </div>
       </div>
     </div>
@@ -344,42 +331,7 @@
   </div>
 </footer>
 
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    }
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
-</script>
+<script src="/js/smoothscroll.js"></script>
 
 </body>
 </html>
