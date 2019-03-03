@@ -53,7 +53,6 @@
 
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #FF221F !important;
-    /*background-color: rgba(255,255,255) !important;*/
     height: 70px;
   }
 
@@ -80,7 +79,7 @@
   }
 
   button {
-    outline: none;
+    outline: none !important;
   }
 
   input, textarea {
@@ -143,7 +142,7 @@
   }
 
   .jumbotron {
-    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("img/oo.jpg");
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)), url("/img/oo.jpg");
     color: #fff;
     height: 100vh;
     background-size: 100%;
@@ -210,8 +209,6 @@
     opacity: 1;
     transition: .6s;
   }
-
-  .thumb:hover ~ .txt {}
 
   .carousel-control.right, .carousel-control.left {
     background-image: none;
@@ -380,7 +377,10 @@
 
   }
 
-  .slideanim {visibility:hidden;}
+  .slideanim {
+    visibility: hidden;
+  }
+
   .slide {
     animation-name: slide;
     -webkit-animation-name: slide;

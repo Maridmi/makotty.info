@@ -10,6 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -94,20 +95,20 @@
   <h2 class="white-text" style="padding-bottom: 30px">Портфолио</h2><br>
   <div class="row text-center slideanim">
     <div class="thumb col-sm-6">
-        <a href="/altpravo"><img src="img/done/alt0.jpg" alt="Alt">
+        <a href="/makotty/altpravo"><img src="img/done/alt0.jpg" alt="Alt">
         <div class="txt">Сайт юридической<br/>компании "ALT-PRAVO"</div></a>
     </div>
     <div class="thumb col-sm-6">
-        <a href="/altpravo"><img src="img/done/alt0.jpg" alt="Alt">
-        <div class="txt">Сайт юридической<br/>компании "ALT-PRAVO"</div></a>
+        <a href="/makotty/paparemont"><img src="img/done/papa0.jpg" alt="Alt">
+        <div class="txt">Сайт строительной компании <br/>"Папа сделает ремонт"</div></a>
     </div>
     <div class="thumb col-sm-6">
-        <a href="/altpravo"><img src="img/done/alt0.jpg" alt="Alt">
-        <div class="txt">Сайт юридической<br/>компании "ALT-PRAVO"</div></a>
+        <a href="/makotty/level"><img src="img/done/lvl0.png" alt="Alt">
+        <div class="txt">Сайт компании <br/>"LEVEL"</div></a>
     </div>
     <div class="thumb col-sm-6">
-        <a href="/altpravo"><img src="img/done/alt0.jpg" alt="Alt">
-        <div class="txt">Сайт юридической<br/>компании "ALT-PRAVO"</div></a>
+        <a href="/makotty/nikitakyznetsov"><img src="img/done/кузнецов.jpg" alt="Alt">
+        <div class="txt">Сайт компании <br/>"Никита Кузнецов и Партнеры"</div></a>
     </div>
   </div><br>
   <a href="/portfolio"><button class="btn btn-lg">Больше Работ</button></a>
