@@ -52,7 +52,10 @@
     <h2>Обо Мне</h2><br>
     <h4>Я дизайнер из Санкт-Петербурга. Я работала в маркетинговом агенстве, но с недавнего времени занимаюсь фрилансом в сфере графического дизайна.</h4><br>
     <p>Занимаюсь разработкой сайтов, логотипов, визиток.</p>
-    <br><a href="#contact"><button class="btn btn-lg">Связаться</button></a>
+    <div class="row">
+      <br><a href="#contact"><button class="btn btn-lg">Связаться</button></a>
+      <br><a href="/makotty.info/portfolio"><button class="btn btn-lg">Портфолио</button></a>
+    </div>
   </div>
 </div>
 
@@ -111,7 +114,7 @@
         <div class="txt">Сайт компании <br/>"Никита Кузнецов и Партнеры"</div></a>
     </div>
   </div><br>
-  <a href="/portfolio"><button class="btn btn-lg">Больше Работ</button></a>
+  <a href="/makotty.info/portfolio"><button class="btn btn-lg">Больше Работ</button></a>
 </div>
 
 <div id="reviews" class="container-fluid text-center">  
