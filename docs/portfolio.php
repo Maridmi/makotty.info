@@ -68,7 +68,7 @@
 	    <h1 class="col-sm-6 text-left"><strong>Сайт строительной компании <br/>"Папа сделает ремонт"</strong></h1></a>
 	</div>
 
-	<div class="dark container-fluid">
+	<div class="white container-fluid">
 	    <a href="/makotty.info/sunflower"><img src="img/done/sunflower.jpg" class="col-sm-6">
 	    <h1 class="col-sm-6 text-left"><strong>Разработка логотипа<br/>"SunFlower"</strong></h1></a>
 	</div>
