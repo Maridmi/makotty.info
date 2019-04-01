@@ -11,11 +11,14 @@
 	background-color: white;
     color: #0F0F0F;
 	height: 90vh;
-	text-align: right;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
+}
+
+.white h1 {
+	text-align: right;
 }
 
 .dark a {
