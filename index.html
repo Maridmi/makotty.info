@@ -52,9 +52,9 @@
     <h2>Обо Мне</h2><br>
     <h4>Я дизайнер из Санкт-Петербурга. Я работала в маркетинговом агенстве, но с недавнего времени занимаюсь фрилансом в сфере графического дизайна.</h4><br>
     <p>Занимаюсь разработкой сайтов, логотипов, визиток.</p>
-    <div class="row">
+    <div class="aboutButtons">
+      <br><a href="/makotty.info/portfolio"><button class="btn btn-lg" style="margin-right: 25px">Портфолио</button></a>
       <br><a href="#contact"><button class="btn btn-lg">Связаться</button></a>
-      <br><a href="/makotty.info/portfolio"><button class="btn btn-lg">Портфолио</button></a>
     </div>
   </div>
 </div>
@@ -94,6 +94,16 @@
   </div>
 </div>
 
+<script>
+  $('.image1').hover(
+    function(){
+        $('.txt').css('opacity','1');
+        $('.image1').css('background'. 'rgb(0,0,0)');
+        $('.image1').css('opacity'. '.3');
+    }
+)
+</script>
+
 <div id="portfolio" class="container-fluid text-center">
   <h2 class="white-text" style="padding-bottom: 30px">Портфолио</h2><br>
   <div class="row text-center slideanim">
@@ -102,16 +112,16 @@
         <div class="txt">Сайт юридической<br/>компании "ALT-PRAVO"</div></a>
     </div>
     <div class="thumb col-sm-6">
-        <a href="/makotty/paparemont"><img src="img/done/papa0.jpg" alt="Alt">
-        <div class="txt">Сайт строительной компании <br/>"Папа сделает ремонт"</div></a>
+        <a href="/makotty/paparemont"><img src="img/done/mdmpk0.jpg" alt="Alt">
+        <div class="txt">Листовка пекарни <br/>"Мадам Пеку"</div></a>
     </div>
     <div class="thumb col-sm-6">
-        <a href="/makotty/level"><img src="img/done/lvl0.png" alt="Alt">
+        <a href="/makotty/level"><img src="img/done/lvl0.jpg" alt="Alt">
         <div class="txt">Сайт компании <br/>"LEVEL"</div></a>
     </div>
     <div class="thumb col-sm-6">
-        <a href="/makotty/nikitakyznetsov"><img src="img/done/кузнецов.jpg" alt="Alt">
-        <div class="txt">Сайт компании <br/>"Никита Кузнецов и Партнеры"</div></a>
+        <a href="/makotty/nikitakyznetsov"><img src="img/done/bay0.jpg" alt="Alt">
+        <div class="txt">Презентация проекта <br/>"Royal Bay"</div></a>
     </div>
   </div><br>
   <a href="/makotty.info/portfolio"><button class="btn btn-lg">Больше Работ</button></a>
@@ -129,15 +139,15 @@
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <div class="col-sm-2"></div>
-        <h4 class="white-text col-sm-8">Благодарим за дизайн логотипа для розничного магазина цветов и подарков. Работа выполнена оперативно и с учетом всех наших пожеланий. Выражаю благодарность от всей команды "SunFlowers"!<br/><br/><span>ИП Жанько О.Б.,<br/>"SunFlowers"</span></h4>
+        <h4 class="white-text col-sm-8">Благодарим за дизайн логотипа для розничного магазина цветов и подарков. Работа выполнена оперативно и с учетом всех наших пожеланий. Выражаю благодарность от всей команды "SunFlowers"!<br/><br/><span>ИП Жанько О. Б.,<br/>"SunFlowers"</span></h4>
       </div>
       <div class="item">
         <div class="col-sm-2"></div>
-        <h4 class="white-text col-sm-8">Спасибо за качественно и быстро выполненную работу! На всем ее портяжении мы получали консультацию по всем интересующим вопросам и следили за ходом ее выполнения.<br/><br/><span>Дубровский В.Г.,<br/>ООО "Вентиляционные системы ПЭО"</span></h4>
+        <h4 class="white-text col-sm-8">Спасибо за качественно и быстро выполненную работу! На всем ее портяжении мы получали консультацию по всем интересующим вопросам и следили за ходом ее выполнения.<br/><br/><span>Дубровский В. Г.,<br/>ООО "Вентиляционные системы ПЭО"</span></h4>
       </div>
       <div class="item">
         <div class="col-sm-2"></div>
-        <h4 class="white-text col-sm-8">Выражаю благодарность от лица всех членов бригады за проделанную работу. Был разработан имиджевый стиль компании. Отдельное спасибо за дизайн визитной карточки и за обратную связь в удобное для нас время.<br/><br/><span>Сердеева Н.А.,<br/>ООО "СтройНевка"</span></h4>
+        <h4 class="white-text col-sm-8">Выражаю благодарность от лица всех членов бригады за проделанную работу. Был разработан имиджевый стиль компании. Отдельное спасибо за дизайн визитной карточки и за обратную связь в удобное для нас время.<br/><br/><span>Сердеева Н. А.,<br/>ООО "СтройНевка"</span></h4>
       </div>
     </div>
 
@@ -209,6 +219,9 @@
       <p><span class="glyphicon glyphicon-map-marker"></span> Санкт-Петербург, Россия</p>
       <p><span class="glyphicon glyphicon-phone"></span><a href="tel:+79080934835">  +7(908)093-48-35</a></p>
       <p><span class="glyphicon glyphicon-envelope"></span><a href="mail:yarova0marina@gmail.com">  yarova0marina@gmail.com</a></p>
+      <span class="contacticons"><a href="https://vk.com/mari__rina"><img src="img/vk.png"></a></span>
+      <span class="contacticons"><a href="https://instagram.com/_mari_rina_/"><img src="img/inst.png"></a></span>
+      <span class="contacticons"><a href="mail:yarova0marina@gmail.com"><img src="img/gp.png"></a></span>
     </div>
     <div class="col-sm-6 slideanim">
       <div class="row">
@@ -227,6 +240,9 @@
         <div class="col-sm-12 form-group">
           <button class="btn btn-lg pull-right" type="submit">Отправить</button>
         </div>
+        <div class="desc">
+          <p style="font-size: 14px">Нажимая на кнопку, Вы соглашаетесь с <a href="#privacypolicy" style="font-size: 14px">Политикой конфиденциальности</a>.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -243,8 +259,8 @@
             <a class="hov" href="#privacypolicy" style="padding-top: 15px">Политика конфиденциальности</a>
           </div>
 
-          <div class="modal fade col-sm-10" id="myModal">
-            <div class="modal-content modal-dialog modal-dialog-centered modal-lg" style="margin: 100px; background-color: rgba(0,0,0, .8); ">
+          <div class="modal fade" id="myModal">
+            <div class="modal-content modal-dialog modal-dialog-centered modal-lg" style="margin-top: 100px; margin-bottom: 100px; background-color: rgba(0,0,0, .8)">
             
               <div class="modal-header">
                 <button type="button" class="close" style="color: white" data-dismiss="modal">&times;</button>
