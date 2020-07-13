@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>WEB</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/vart.css">
+  <link rel="stylesheet" href="css/web.css">
+  <link rel="shortcut icon" href="img/navlogo.png" type="image/x-icon">
+</head>
+<body>
+
+
+  <div id="myNav" class="overlay row">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <div class="navButtons">
+        <button class="tablink" onclick="openPage('About', this)" id="defaultOpen">About</button>
+        <button class="tablink" onclick="openPage('Spec', this)">Skills</button>
+        <button class="tablink" onclick="openPage('Contact', this)">Contacts</button>
+      </div>
+  
+      <div id="About" class="tabcontent">
+        <h2>Hello!</h2> <br>
+        <p>I’m Marina, a Saint P. based designer. Im always searching 
+          for new experienxes and challenges. <br>If you have any nice projects, get in touch!</p>
+        <p>You can find out more information <br>about me <a class="navlink" href="/maridmi.github.io/resume">here.</a></p>
+      </div>
+  
+      <div id="Spec" class="tabcontent">
+        <h2>My primary skills:</h2> <br>
+        <p>Web-design</p>
+        <p>Graphic design</p>
+        <p>Branding (logos, colors)</p>
+        <p>Any kind of drawings</p>
+      </div>
+  
+      <div id="Contact" class="tabcontent">
+        <h2>Just contact me.</h2> <br>
+        <p>If you are interested in starting a project together, please get in touch:</p> <br><br>
+        <a class="navlinktel" href="tel:+79110180255"><i class="fas fa-phone"></i> +7(911)018-02-55</a><br>
+        <a class="navlinktel" href="mailto:yarova0marina"><i class="far fa-envelope"></i>  yarova0marina@gmail.com</a>
+      </div>
+  
+      <script>
+      function openPage(pageName,elmnt,color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.color = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.color = color;
+      }
+      document.getElementById("defaultOpen").click();
+      </script>
+    </div>
+  </div>
+  
+  <div class="sidenav">
+    <img id="logo" onclick="changeState()" src="img/navlogo.png">
+  </div>
+  
+  <script>
+    let isClosed = true; // 0 - closed, 1 - opened
+  
+    function changeState() {
+      if(isClosed)
+        openNav();
+      else
+       closeNav();
+    }
+  
+    function openNav() {
+      document.getElementById("myNav").style.width = "600px";
+      document.getElementById("logo").style.transform = "rotate(90deg)";
+      isClosed = false;
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+      document.getElementById("logo").style.transform = "rotate(0)";
+      document.getElementById("logo").style.transition = "0.5s";
+      isClosed = true;
+    }
+  </script>
+
+<div class="everything" onclick="closeNav()">
+  <div class="block" id="main">
+    <div class="textvart">
+      <h4>Web-design projects</h4><br>
+      <p></p>
+    </div>
+  </div>
+
+  <div class="block" id=""></div>
+
+  <div class="block" id=""></div>
+
+  <div class="block" id=""></div>
+  
+  <div class="block" id=""></div>
+  
+  <div class="block" id=""></div>
+  
+  <div class="back">
+    <a href="/" class="nextpage"><button class="nextPageButton"></button><img src="img/chevback.png"></button></a>
+  </div>
+  
+  <foother>
+    <div class="end">
+      <button class="but butprev">Previous</button>
+      <button class="but buthome">Back to home page</button>
+      <button class="but butnext">Next</button>
+    </div>
+  </footer>
+  
+</div>
+
+</body>
+</html>

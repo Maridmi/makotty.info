@@ -1,0 +1,108 @@
+#one {
+	background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/main1.jpg?alt=media&token=83698010-1397-4e7c-93a4-3ad98dbb41a2");
+  }
+
+@media screen and (min-width: 420px) {
+	#two {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/vart2.png?alt=media&token=a6508c4d-7f8e-4763-a0a2-8b01902e950a");
+	}
+
+	#three {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/vart.png?alt=media&token=e0d7e24f-620b-458e-97a1-03e244653599");
+	}
+
+	#typo {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/font.jpg?alt=media&token=ed873242-292f-4fd6-8eaa-da183025e281");
+	}
+
+	#lettersvart {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/letters.png?alt=media&token=39c68bc0-53b4-45de-a149-19202ff36e0c");
+	}
+
+	#font {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/fontgrid.jpg?alt=media&token=d4a15ede-ddff-4105-9c50-ae2c4583ba72");
+	}
+
+	#color {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/colors.jpg?alt=media&token=a580ea43-5114-4ea4-95e1-7d5a9348e0b0");
+	}
+
+	#mockup1 {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mockup.jpg?alt=media&token=5ae2482d-8254-4148-968d-c853620a000f");
+  }
+}
+
+@media screen and (max-width: 420px) {
+	#two {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobile1.png?alt=media&token=daf9f1eb-681b-48c7-9083-607c0396ac68");
+	}
+
+	#three {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/gridmobile.png?alt=media&token=129f3772-2f68-40ef-b113-78b18d330625");
+	}
+
+	#typo {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mobile2.png?alt=media&token=3118ed88-8ddc-47d1-8d53-3482f0e687ad");
+	}
+
+	#lettersvart {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/letters.png?alt=media&token=39c68bc0-53b4-45de-a149-19202ff36e0c");
+	}
+
+	#font {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/fontgrid.jpg?alt=media&token=d4a15ede-ddff-4105-9c50-ae2c4583ba72");
+	}
+
+	#color {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/colors.jpg?alt=media&token=a580ea43-5114-4ea4-95e1-7d5a9348e0b0");
+	}
+
+	#mockup1 {
+		background-image: linear-gradient(rgba(0,0,0, 0), rgba(0,0,0, 0)), url("https://firebasestorage.googleapis.com/v0/b/makotty-web.appspot.com/o/mockup.jpg?alt=media&token=5ae2482d-8254-4148-968d-c853620a000f");
+  }
+}
+
+.blockvart {
+    height: 110vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.textvart {
+	position: absolute;
+	width: 100%;
+	bottom: 10%;
+	left: 10%;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: rgba(0,0,0, 0.7);
+	padding: 30px;
+  }
+
+.textvart h4 {
+	font-size: 40px;
+}
+
+.textvart p {
+	font-size: 20px;
+}
+.end {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	height: 35vh;
+	width: 100%;
+}
+
+.but {
+	height: 100%;
+	width: 100%;
+	border: none;
+	margin-bottom: 50px;
+}
+
+.but:hover {
+	border: none;
+}
